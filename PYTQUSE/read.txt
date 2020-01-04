@@ -1,0 +1,17 @@
+PyQt5的下载以及第一个PyQt5的界面编写：https://www.cnblogs.com/smart-zihan/p/12148990.html
+
+firstpic.ui
+    用designer.exe写的一个界面，保存之后就是firstpic.ui
+firstpic.py
+    右击firstpic.ui，用PyUIC将ui转换成py文件，生成firstpic.py
+first.py
+    导入firstpic.py，右击运行弹出窗口
+
+实现界面与代码的分离：https://blog.csdn.net/niuyongjie/article/details/81161937
+
+filedealpic.ui
+    写的一个打开文件和保存文件的界面，里面就是一个编辑框加两个按钮，一个打开按钮，一个保存按钮
+filedealpic.py
+    通过filedealpic.ui转换而来
+filedeal.py
+    这个程序初步实现了界面和代码分离
