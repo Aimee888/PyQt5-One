@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menumenu1">
+    <property name="title">
+     <string>menu1</string>
+    </property>
+    <addaction name="actionchild1"/>
+    <addaction name="actionchild2"/>
+    <addaction name="actionchild3"/>
+    <addaction name="separator"/>
+    <addaction name="actionexit"/>
+   </widget>
+   <widget class="QMenu" name="menumenu2">
+    <property name="title">
+     <string>menu2</string>
+    </property>
+    <addaction name="actionchild1_2"/>
+    <addaction name="actionchild2_2"/>
+    <addaction name="actionchild3_2"/>
+   </widget>
+   <addaction name="menumenu1"/>
+   <addaction name="menumenu2"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionchild1">
+   <property name="text">
+    <string>child1</string>
+   </property>
+  </action>
+  <action name="actionchild2">
+   <property name="text">
+    <string>child2</string>
+   </property>
+  </action>
+  <action name="actionchild3">
+   <property name="text">
+    <string>child3</string>
+   </property>
+  </action>
+  <action name="actionexit">
+   <property name="text">
+    <string>exit</string>
+   </property>
+  </action>
+  <action name="actionchild1_2">
+   <property name="text">
+    <string>child1</string>
+   </property>
+  </action>
+  <action name="actionchild2_2">
+   <property name="text">
+    <string>child2</string>
+   </property>
+  </action>
+  <action name="actionchild3_2">
+   <property name="text">
+    <string>child3</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

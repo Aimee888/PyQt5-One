@@ -1,0 +1,97 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'tab4.ui'
+#
+# Created by: PyQt5 UI code generator 5.13.0
+#
+# WARNING! All changes made in this file will be lost!
+
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+
+class Ui_MainWindow(object):
+    def setupUi(self, MainWindow):
+        MainWindow.setObjectName("MainWindow")
+        MainWindow.resize(800, 600)
+        self.centralwidget = QtWidgets.QWidget(MainWindow)
+        self.centralwidget.setObjectName("centralwidget")
+        self.tabWidget = QtWidgets.QTabWidget(self.centralwidget)
+        self.tabWidget.setGeometry(QtCore.QRect(0, 0, 791, 551))
+        self.tabWidget.setObjectName("tabWidget")
+        self.tab = QtWidgets.QWidget()
+        self.tab.setObjectName("tab")
+        self.label = QtWidgets.QLabel(self.tab)
+        self.label.setGeometry(QtCore.QRect(110, 170, 91, 61))
+        self.label.setObjectName("label")
+        self.tabWidget.addTab(self.tab, "")
+        self.tab_2 = QtWidgets.QWidget()
+        self.tab_2.setObjectName("tab_2")
+        self.calendarWidget = QtWidgets.QCalendarWidget(self.tab_2)
+        self.calendarWidget.setGeometry(QtCore.QRect(210, 170, 312, 183))
+        self.calendarWidget.setObjectName("calendarWidget")
+        self.tabWidget.addTab(self.tab_2, "")
+        self.tab_3 = QtWidgets.QWidget()
+        self.tab_3.setObjectName("tab_3")
+        self.progressBar = QtWidgets.QProgressBar(self.tab_3)
+        self.progressBar.setGeometry(QtCore.QRect(200, 150, 431, 71))
+        self.progressBar.setProperty("value", 24)
+        self.progressBar.setObjectName("progressBar")
+        self.tabWidget.addTab(self.tab_3, "")
+        MainWindow.setCentralWidget(self.centralwidget)
+        self.menubar = QtWidgets.QMenuBar(MainWindow)
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 800, 21))
+        self.menubar.setObjectName("menubar")
+        self.menumenu1 = QtWidgets.QMenu(self.menubar)
+        self.menumenu1.setObjectName("menumenu1")
+        self.menumenu2 = QtWidgets.QMenu(self.menubar)
+        self.menumenu2.setObjectName("menumenu2")
+        MainWindow.setMenuBar(self.menubar)
+        self.statusbar = QtWidgets.QStatusBar(MainWindow)
+        self.statusbar.setObjectName("statusbar")
+        MainWindow.setStatusBar(self.statusbar)
+        self.actionchild1 = QtWidgets.QAction(MainWindow)
+        self.actionchild1.setObjectName("actionchild1")
+        self.actionchild2 = QtWidgets.QAction(MainWindow)
+        self.actionchild2.setObjectName("actionchild2")
+        self.actionchild3 = QtWidgets.QAction(MainWindow)
+        self.actionchild3.setObjectName("actionchild3")
+        self.actionexit = QtWidgets.QAction(MainWindow)
+        self.actionexit.setObjectName("actionexit")
+        self.actionchild1_2 = QtWidgets.QAction(MainWindow)
+        self.actionchild1_2.setObjectName("actionchild1_2")
+        self.actionchild2_2 = QtWidgets.QAction(MainWindow)
+        self.actionchild2_2.setObjectName("actionchild2_2")
+        self.actionchild3_2 = QtWidgets.QAction(MainWindow)
+        self.actionchild3_2.setObjectName("actionchild3_2")
+        self.menumenu1.addAction(self.actionchild1)
+        self.menumenu1.addAction(self.actionchild2)
+        self.menumenu1.addAction(self.actionchild3)
+        self.menumenu1.addSeparator()
+        self.menumenu1.addAction(self.actionexit)
+        self.menumenu2.addAction(self.actionchild1_2)
+        self.menumenu2.addAction(self.actionchild2_2)
+        self.menumenu2.addAction(self.actionchild3_2)
+        self.menubar.addAction(self.menumenu1.menuAction())
+        self.menubar.addAction(self.menumenu2.menuAction())
+
+        self.retranslateUi(MainWindow)
+        self.tabWidget.setCurrentIndex(0)
+        QtCore.QMetaObject.connectSlotsByName(MainWindow)
+
+    def retranslateUi(self, MainWindow):
+        _translate = QtCore.QCoreApplication.translate
+        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        self.label.setText(_translate("MainWindow", "This is tab1"))
+        self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab), _translate("MainWindow", "tab111"))
+        self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_2), _translate("MainWindow", "tab222"))
+        self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_3), _translate("MainWindow", "tab333"))
+        self.menumenu1.setTitle(_translate("MainWindow", "menu1"))
+        self.menumenu2.setTitle(_translate("MainWindow", "menu2"))
+        self.actionchild1.setText(_translate("MainWindow", "child1"))
+        self.actionchild2.setText(_translate("MainWindow", "child2"))
+        self.actionchild3.setText(_translate("MainWindow", "child3"))
+        self.actionexit.setText(_translate("MainWindow", "exit"))
+        self.actionchild1_2.setText(_translate("MainWindow", "child1"))
+        self.actionchild2_2.setText(_translate("MainWindow", "child2"))
+        self.actionchild3_2.setText(_translate("MainWindow", "child3"))
