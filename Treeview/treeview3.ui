@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTreeWidget" name="treeWidget">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>120</y>
+      <width>256</width>
+      <height>192</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>Key</string>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Value</string>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+    </column>
+    <item>
+     <property name="text">
+      <string>Test1</string>
+     </property>
+     <property name="background">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>170</red>
+        <green>0</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="text">
+      <string>waiting</string>
+     </property>
+     <property name="background">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>255</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </property>
+     <item>
+      <property name="text">
+       <string>a</string>
+      </property>
+      <property name="text">
+       <string>waiting</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>b</string>
+      </property>
+      <property name="text">
+       <string>waiting</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>c</string>
+      </property>
+      <property name="text">
+       <string>waiting</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>d</string>
+      </property>
+      <property name="text">
+       <string>waiting</string>
+      </property>
+     </item>
+    </item>
+    <item>
+     <property name="text">
+      <string>Test2</string>
+     </property>
+     <property name="text">
+      <string>waiting</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>a</string>
+      </property>
+      <property name="text">
+       <string>waiting</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>b</string>
+      </property>
+      <property name="text">
+       <string>waiting</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>c</string>
+      </property>
+      <property name="text">
+       <string>waiting</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>d</string>
+      </property>
+      <property name="text">
+       <string>waiting</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>e</string>
+      </property>
+      <property name="text">
+       <string>waiting</string>
+      </property>
+     </item>
+    </item>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
