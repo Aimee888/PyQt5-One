@@ -37,13 +37,6 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
-        self.copy_file()
-
-    def copy_file(self):
-        for i in range(101):
-            self.progressBar.setValue(i)
-            QApplication.processEvents()
-            time.sleep(1)
 
 
 if __name__ == '__main__':
